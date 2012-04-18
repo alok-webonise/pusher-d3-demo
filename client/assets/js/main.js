@@ -3,7 +3,7 @@ var next_value = 0,
   v = 70, // start value (tweets),
   data = [],
   data = d3.range(31).map(function(){ return { time: t, value: 0 }; }), // starting dataset,
-  pusher_key = 'f528ced7bacc3e5920f3', // Replace with your app key
+  pusher_key = '42bf9b5ec8c4401db3ec', // Replace with your app key
   currentMaxValue = 0,
   allTimeMaxValue = 0,
 
